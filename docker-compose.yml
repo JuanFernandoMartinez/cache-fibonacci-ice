@@ -1,0 +1,9 @@
+version: '1'
+services:
+  jhonny:
+    build: .
+    ports:
+      - "10000:3000"
+    links:
+    
+  penguin:
